@@ -1,9 +1,9 @@
 /*  your css code here. If applicable */
 nav{
-	background-color:#6e072d;
+	background-color:rgb(110, 7, 45);
 	color:white;
 	display:flex;
-	justify-content:space-around;
+	justify-content:space-between;
 	width:100%;
 }
 ul{
@@ -18,7 +18,7 @@ li{
 	cursor:pointer;	
 }
 li:hover{
-	background-color:#b90e4d;
+	background-color:rgb(255, 255, 255);
 }
 nav ul:first-child li{
 	border-right:2px solid white;
@@ -29,6 +29,6 @@ nav ul:first-child li:last-child{
 nav ul:last-child li:first-child{
 	border-left:none;
 }
-nav ul:last-child li:first-child{
+nav ul:last-child li{
 	border-right:2px solid white;
 }
