@@ -4,11 +4,14 @@ nav{
 	color:white;
 	display:flex;
 	justify-content:space-around;
+	width:100%;
 }
 ul{
 	font-size:18px;
 	display:flex;
 	list-style-type:none;
+	margin:0;
+	padding:0;
 }
 li{
 	padding:18px 27px;
@@ -27,5 +30,5 @@ nav ul:last-child li:first-child{
 	border-left:none;
 }
 nav ul:last-child li:first-child{
-	border-left:2px solid white;
+	border-right:2px solid white;
 }
